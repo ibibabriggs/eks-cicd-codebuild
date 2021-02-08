@@ -17,8 +17,15 @@ This stack provisions the following resources with **AWS CDK**
 
 ## Pre-requisities
 - [x] **AWS CDK >= 1.82.0** - check [Getting Started with AWS CDK](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html) to setup your CDK environment. Run `cdk --version` to check the CLI version.
-- [x] **Docker** - AWS CDK will build a docker image from local for codebuild environment. Make sure you have installed docker in your client.
 
+- [x] **Docker** - AWS CDK will build a docker image from local for codebuild environment. Make sure you have installed docker in your client.
+       - sudo yum install docker -y
+       - sudo systemctl start docker
+       - sudo systemctl enable docker
+       
+- [x] **Kubectl** -   
+       
+       
 
 ## Usage
 
